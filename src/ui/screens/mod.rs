@@ -1,2 +1,9 @@
+pub mod audit_log;
+pub mod config_screen;
 pub mod dashboard;
+pub mod first_run;
+pub mod profile_create;
+pub mod profile_detail;
+pub mod profile_doctor;
+pub mod profile_list;
 pub mod stub;

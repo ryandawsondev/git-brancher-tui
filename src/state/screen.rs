@@ -75,7 +75,7 @@ impl Default for CloneWizard {
 pub enum Screen {
     Dashboard { selected: usize },
     ProfileList { selected: usize },
-    ProfileDetail { name: String },
+    ProfileDetail { name: String, action_selected: usize },
     ProfileCreate(FormState),
     ProfileEdit { name: String, form: FormState },
     ProfileDiff { name_a: String, name_b: String, diff: Vec<DiffEntry> },
